@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    width: 1100px;
+    margin: auto;
+    
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ****Header Section**** */
+.header{
+   
+    
+}
+    
+.header-menu{
+    background-color: #00c6a0;
+    padding: 15px 0;
+}
+.logo{
+    width: 40%;
+    float: left;
+    color: #fff;
+  
+}
+.logo h2{
+   padding: 0 0 0 60px;
+    
+}
+
+
+.menu{
+    width: 60%;
+    float: right;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+   
+    margin-left: 15px;
+    text-align: right;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    
+
+}
+.menu ul li :hover{
+    background-color: #add1ca;
+}
+/* Banner sexction */
+.banner{text-align: center;
+    background-image: url("https://i.ibb.co/q9T885P/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+
+}
+.banner h2{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.banner h3{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.banner a{
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+/* service section */
+
+.service{
+    margin: 30px 0;
+    text-align: center;
+}
+.service h2{
+    margin-bottom: 20px;
+}
+.service p{
+    margin-bottom: 50px;
+}
+.service-box{
+    border-bottom: 2px solid green;
+    
+   
+}
+.box1{
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+.box2{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.box3{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.box4{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+span{
+    font-size: 30px;
+    color: #00c6a0;
+   
+    
+    
+}
+
+.div1 {
+    height: 3px;
+    width: auto;
+    position: relative;
+    top: 155px;
+    left: 0;
+    background-color: #a6eee1;
+}
+
+/* About section */
+.about{
+    text-align: center;
+}
+.about h1{
+margin-top: 50px;
+display: inline-block;
+}
+.about p{
+    margin: 14px 0 20px 30px;
+    text-align: left;
+    
+}
+.about-box{
+    margin: 30px 0;
+}
+.box-img{
+    
+}
+.box-img img{
+    width:40%;
+    float: left;
+}
+.box-text{
+    width: 58%;
+    float: right;
+    margin-left: 20px;
+}
+.box-text h2{}
+.box-text p{}
+
+/* Contact section */
+.con-text{
+    text-align: center;
+}
+.con-text h1{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+  
+}
+.con-text p{
+    margin-top: 20px;
+}
+.contact-box{
+    margin: 50px 0 50px 80px;
+    text-align: center;
+}
+.contact-box1{
+    width: 31%;
+    float: left;
+    
+}
+.contact-box1 span{
+    /* color: red; */
+    
+}
+.contact-box2{
+    width: 31%;
+    float: left;
+}
+.contact-box3{
+    width: 31%;
+    float: left;
+}
+.contactbgc{
+    background-color: rgba(238, 228, 228, .6);
+    padding: 40px 0 120px 0;
+}
+
+/* footer section */
+.footer{}
+.footer ul{
+    list-style: none;
+    text-align: center;
+    background-color: #00c398;
+    padding: 15px 0;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer ul li a{
+    font-size: 30px;
+    color: #fff;
+}
+
+/* footer bootom */
+.footer-btm{
+    background-color:#262726;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-btm p{
+    color: gray;
+}
