@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
 }
+/* body{
+    overflow: hidden;
+} */
 .fixed-width{
     width: 1100px;
     margin: auto;
     
+}
+img{
+    max-width: 100%;
 }
 .clearfix::after{
     content: "";
